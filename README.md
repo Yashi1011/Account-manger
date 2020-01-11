@@ -1,7 +1,5 @@
 # Account Manager
 
-![Build Status](https://travis-ci.org/Nitin1901/Account-manger.svg?branch=master)
-
 ### How the code is managed
 
 The above code is divided into different functions which include,
@@ -13,14 +11,14 @@ The above code is divided into different functions which include,
 + `addToDatabase(address, password)`
 + `transfer(address)`
 
-The `welcome()` function is called iniially and then different functions are returned according to the instructions.
+The `welcome()` function is called initially and then different functions are returned according to the instructions.
 
 ## Getting started 
 
 ### Libraries used:-
 + `ipywidgets` - To create basic widgets. [Click here](https://ipywidgets.readthedocs.io/en/latest/).
 + `IPython.display` - To displaye the created widgets. [Click here](https://ipython.org/ipython-doc/dev/api/generated/IPython.display.html).
-+ `pymongo` - To establish a connection to the MongoDB server. [Click here](https://github.com/Nitin1901/MongoDB-cheatsheat).
++ `mysql.connector` - To establish a connection to the sql server. [Click here](https://github.com/Yashi1011/SQL-Python).
 + `urllib` - To enter the cluster credentials. [Click here](https://docs.python.org/3/library/urllib.html).
 
 ### Establising a connection.
