@@ -21,38 +21,6 @@ The `welcome()` function is called initially and then different functions are re
 + `mysql.connector` - To establish a connection to the sql server. [Click here](https://github.com/Yashi1011/SQL-Python).
 + `urllib` - To enter the cluster credentials. [Click here](https://docs.python.org/3/library/urllib.html).
 
-### Establising a connection.
-The steps to establish a secure connection are given [here](https://github.com/Nitin1901/MongoDB-cheatsheat).
-1) Get access to the cluster.
-2) Access the database.
-3) Access the collection and make changes on it.
-
-### Calling the funstions.
-When the code is run, initially, `welcome()` function is called manually.
-
-Later on, different functions are returned based on a particular condition as, 
-```python
-if cond1:
-  return func1()
-else:
-  return func2()
-```
-
-### Creating and using the widgets.
-Only few widgets are used here
-+ `Button`
-+ `Text`
-+ `Password`
-
-These methods have parameters which modify them.
-
-### Affecting the database.
-Any change to the collection in any row is updated directly to the database.
-
-Like,
-```python
-collection.update_one(myquery_debit, newvalues_debit)
-```
 
 ### Conclusion.
 This code makes use of database to store and access accounts.
