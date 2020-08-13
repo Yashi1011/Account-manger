@@ -31,7 +31,8 @@ We can either
 or
 + Modify the account
 
-As the code makes use of databse, we can store info of many people.
+As the code makes use of databse, we can store info of many people. To know more about python-sql connection refer this [link](https://github.com/Yashi1011/SQL-Python).
+
 As the code progresses according to conditions, it is secure to use.
 
 We can implement this in many __Banking Applications.__
